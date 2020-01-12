@@ -28,7 +28,7 @@ end
 
 Class: Genre
 attr_accessor :name, :song  
-drake = Artist.new("Drake", "rap")
+drake = Artist.new("", "rap")
 hotline_bling = Song.new("Hotline Bling")
  
 hotline_bling.artist = drake
