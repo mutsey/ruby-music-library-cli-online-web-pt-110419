@@ -17,7 +17,14 @@ Class: Artist
 end
 
 Class: songs
-attr_accessor :name 
+ attr_accessor :title, :artist
+ 
+  def initialize(title)
+    @title = title
+  end
+ 
+end
+
 
 Class: Genre
 attr_accessor :name, :song  
