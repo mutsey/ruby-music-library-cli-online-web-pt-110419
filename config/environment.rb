@@ -27,7 +27,7 @@ end
 
 
 Class: Genre
-attr_accessor :name, :song  
+attr_accessor :name, :song, :artist
 drake = Artist.new("Lizzo", "rap")
 Good_as_hell = Song.new("Good_as_hell")
  
